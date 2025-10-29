@@ -9,6 +9,7 @@ class ColumnAlignmentPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Column Alignment — DUTARO'),
+        titleTextStyle: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w600),
         centerTitle: true,
         backgroundColor: Colors.teal,
       ),

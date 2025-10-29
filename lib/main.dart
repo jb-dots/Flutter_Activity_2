@@ -32,7 +32,8 @@ class HomeMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Alignment Demo — DUTARO'),
+        title: const Text('Alignment Demo — DUTARO'),  
+        titleTextStyle: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.w600),
         centerTitle: true,
         backgroundColor: Colors.indigo,
       ),
